@@ -259,13 +259,7 @@ function Homepage() {
       </footer>
 
       {/* Fixed Mobile Call Button */}
-      <button 
-        onClick={handleCallBooking}
-        className="md:hidden fixed bottom-6 right-6 bg-orange-600 text-white p-4 rounded-full shadow-2xl hover:bg-orange-700 transition-all duration-300 z-50 flex items-center space-x-2"
-      >
-        <Phone className="h-6 w-6" />
-        <span className="font-medium">📞 Book</span>
-      </button>
+    
     </div>
   );
 }
